@@ -20,4 +20,8 @@ public class HelloController {
     protected void onButtonOneClick() {
         welcomeText.setText("This is a test.");
     }
+    @FXML
+    protected void onButtonOneClick() {
+        welcomeText.setText("This is a test.");
+    }
 }
