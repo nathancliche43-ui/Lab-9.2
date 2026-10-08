@@ -5,23 +5,15 @@ import javafx.scene.control.Label;
 
 public class HelloController {
     @FXML
-    private Label nameDisplay;
+    private Label welcomeText;
 
     @FXML
-    protected void onHelloButtonClick() {
-        nameDisplay.setText("Welcome to JavaFX Application!");
-    }
-
-    @FXML
-    protected void onFelixButtonClick() {
-        nameDisplay.setText("Felix");
+    protected void onSecondButtonClick() {
+        welcomeText.setText("This is Test 2 :)");
     }
     @FXML
     protected void onButtonOneClick() {
         welcomeText.setText("This is a test.");
     }
-    @FXML
-    protected void onButtonOneClick() {
-        welcomeText.setText("This is a test.");
-    }
+
 }
